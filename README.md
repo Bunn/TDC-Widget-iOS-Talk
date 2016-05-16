@@ -8,6 +8,10 @@ Bundle Identifier do App e do Today Widget para um que esteja cadastrado no seu 
 
 Após configurar os Bundle Identifiers é necessário também alterar o App Group. Tanto no target to Today Widget como no do App, vá para tab "Capabilities" e ative o App Groups escolhendo um nome para ele. Em teoria, o Xcode deverá configurar o seu developer portal automaticamente depois disso ser feito.
 
+Não esqueça de atualizar o define APP_GROUP no arquivo `DataHandler.m` para o app.group que você escolher.
+```objective-c
+#define APP_GROUP @"group.com.tdcwidget"
+```
 ## Screenshots
 ![TodayWidget](/Images/example.png?raw=true "TodayWidget")
 
