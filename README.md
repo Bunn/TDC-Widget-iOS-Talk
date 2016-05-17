@@ -16,4 +16,4 @@ Não esqueça de atualizar o define APP_GROUP no arquivo `DataHandler.m` para o 
 ![TodayWidget](/Images/example.png?raw=true "TodayWidget")
 
 ## License
-FCBBarCodeGenerator is released under the MIT license. See the LICENSE file for more info.
+TDC-Widget-iOS-Talk is released under the MIT license. See the LICENSE file for more info.
